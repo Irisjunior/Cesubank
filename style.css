@@ -10,6 +10,10 @@
   -o-transition: opacity 2s ease-in;
   transition: opacity 2s ease-in;
 }
+html {
+  height: 100%;
+  min-height: 100%;
+}
 
 * {
   font-family: Arial, Helvetica, sans-serif, Verdana, Geneva, Tahoma, sans-serif;
@@ -19,6 +23,9 @@
 }
 body {
   background-color: rgb(214, 214, 214);
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
 }
 /*PAINEL DE EXIBIÇÃO DE SENHA*/
 header {
@@ -32,7 +39,7 @@ header {
   width: 100%;
   background: var(--orange);
 }
-h1{
+h1 {
   font-size: 4rem;
 }
 #senha {
@@ -142,11 +149,11 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 23rem;
+  margin-top: auto;
   background-color: #ec7000;
 }
 @media (max-width: 1700px) {
-  footer{
+  footer {
     margin-top: 33rem;
   }
 }
@@ -156,7 +163,7 @@ footer {
     flex-direction: column;
     align-items: center;
   }
-  h1{
+  h1 {
     font-size: 2.5rem;
   }
   header {
@@ -188,7 +195,7 @@ footer {
   button {
     padding: 0.5rem;
   }
-  footer{
+  footer {
     margin-top: 15rem;
   }
 }
@@ -197,7 +204,6 @@ footer {
   .botao {
     margin-top: 3px;
   }
-  
 
   .caixas,
   .atendimentos {
@@ -215,7 +221,7 @@ footer {
   .sua-senha {
     margin: 3px;
   }
-  footer{
+  footer {
     margin-top: 2rem;
   }
 }
