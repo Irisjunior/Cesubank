@@ -30,5 +30,5 @@ Antes de qualquer coisa, você precisa ter instaldo o [Google Chrome](https://ww
 Abra o terminal Git Bash no diretorio em que deseja salvar o projeto e cole o seguinte comando:
  
 ```
-
+https://github.com/Irisjunior/Cesubank.git
 ```
